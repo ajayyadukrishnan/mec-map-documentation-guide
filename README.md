@@ -66,12 +66,12 @@ Replace:
 - Save the file after the changes
 - Open the MEC Map Documentation tool and provide the following information
 	
-	- Java File Path - Select the java file
-	- Documentation Folder Path - Select the folder where the documentation needs to be saved
-	- Documentation Title - Enter the Documentation Title
-	- Map Version - Enter the MEC Map version
-	- Author - Specify the Author of the Documentation
-	- Resources Folder Path - Select the folder where the documentation resources are saved
+	- Java File Path - *Select the java file*
+	- Documentation Folder Path - *Select the folder where the documentation needs to be saved*
+	- Documentation Title - *Enter the Documentation Title*
+	- Map Version - *Enter the MEC Map version*
+	- Author - *Specify the Author of the Documentation*
+	- Resources Folder Path - *Select the folder where the documentation resources are saved*
 
 - Click the **Generate Documentation** button and wait for the process to finish
 
