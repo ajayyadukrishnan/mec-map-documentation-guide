@@ -71,3 +71,28 @@ Replace:
 	- Select the folder where the documentation resources are saved
 
 5. Click the **Generate Documentation** button and wait for the process to finish
+
+
+
+## Contact
+
+Get in touch with [Doppio Group](https://doppiogroup.com) or [Ajay Yadukrishnan](mailto:ajayyadukrishnan@gmail.com) to learn more.
+
+
+## Credits
+
+This project is made possible by the projects listed in this document.
+
+### Contributors
+
+- [Ajay Yadukrishnan](https://github.com/ajayyadukrishnan)
+
+### Libraries
+
+- [tkinter](https://github.com/python/cpython/tree/main/Lib/tkinter)
+- [wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf)
+- [pdfkit](https://github.com/JazzCore/python-pdfkit)
+- [PIL](https://github.com/python-pillow/Pillow)
+- [pyinstaller](https://github.com/pyinstaller/pyinstaller)
+
+
