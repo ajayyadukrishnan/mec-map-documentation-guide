@@ -7,7 +7,7 @@ Guide to use the MEC Map Documentation tool
 - MEC Map Documentation Tool
 - Notepad++
 - MEC Map Current Source File
-- Resource Files containing the logo, headers, footers, and the cover page.
+- Resource Files containing the logo, headers, footers, and the cover page, etc.
 
 ## Instructions
 
