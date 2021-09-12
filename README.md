@@ -18,7 +18,7 @@ Guide to use the MEC Map Documentation tool
 ```
 Find:
 
-((?:(?:public&#124;private&#124;protected&#124;static&#124;final&#124;abstract&#124;synchronized&#124;volatile)\s+)*)\s*(void&#124;String)\s*(clearIn&#124;clearOut&#124;printOutput&#124;printInput&#124;getErrorMsg)\(.*?\)\s*({(?:{[^{}]*}&#124;.)*?})
+((?:(?:public|private&#124;protected&#124;static&#124;final&#124;abstract&#124;synchronized&#124;volatile)\s+)*)\s*(void&#124;String)\s*(clearIn&#124;clearOut&#124;printOutput&#124;printInput&#124;getErrorMsg)\(.*?\)\s*({(?:{[^{}]*}&#124;.)*?})
 
 Replace:
 ```
