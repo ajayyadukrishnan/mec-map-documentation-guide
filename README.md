@@ -66,7 +66,7 @@ Replace:
 - Save the file after the changes
 - Open the MEC Map Documentation tool and provide the following information
 	
-	- Select the java file
+	- Java File Path - Select the java file
 	- Select the folder where the documentation needs to be saved
 	- Enter the Documentation Title
 	- Enter the MEC Map version
