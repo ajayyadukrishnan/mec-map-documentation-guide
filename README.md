@@ -3,6 +3,7 @@
 # MEC Map Documentation Guide
 Guide to use the MEC Map Documentation tool
 
+<link rel="icon" href="https://doppiogroup.com/wp-content/uploads/2021/04/cropped-DG-192x192.png" sizes="192x192">
 <a href="https://doppiogroup.com/"><img style="float: right;" src="https://doppiogroup.com/wp-content/uploads/2021/04/doppio_hmpg_animation_FNL2.gif"></a>
 
 ## Pre-requisites
