@@ -18,7 +18,7 @@ Guide to use the MEC Map Documentation tool
 ```
 Find:
 
-((?:(?:public|private&#124;protected&#124;static&#124;final&#124;abstract&#124;synchronized&#124;volatile)\s+)*)\s*(void&#124;String)\s*(clearIn&#124;clearOut&#124;printOutput&#124;printInput&#124;getErrorMsg)\(.*?\)\s*({(?:{[^{}]*}&#124;.)*?})
+((?:(?:public|private|protected|static|final|abstract|synchronized|volatile)\s+)*)\s*(void|String)\s*(clearIn|clearOut|printOutput|printInput|getErrorMsg)\(.*?\)\s*({(?:{[^{}]*}|.)*?})
 
 Replace:
 ```
@@ -26,7 +26,7 @@ Replace:
 ```
 Find:
 
-((?:(?:public&#124;private&#124;protected&#124;static&#124;final&#124;abstract&#124;synchronized&#124;volatile)\s+)*)\s*(\w+)\s*\(String ID, String fPath\)\s*({(?:{[^{}]*}&#124;.)*?})
+((?:(?:public|private|protected|static|final|abstract|synchronized|volatile)\s+)*)\s*(\w+)\s*\(String ID, String fPath\)\s*({(?:{[^{}]*}|.)*?})
 
 Replace:
 ```
@@ -50,7 +50,7 @@ Replace: $1
 ```
 Find:
 
-(\/\/)(.+?)(?=[\n\r]&#124;\*\))
+(\/\/)(.+?)(?=[\n\r]|\*\))
 
 Replace:
 ```
