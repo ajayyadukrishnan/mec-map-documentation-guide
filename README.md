@@ -1,4 +1,5 @@
 
+
 # MEC Map Documentation Guide
 Guide to use the MEC Map Documentation tool
 
@@ -11,8 +12,8 @@ Guide to use the MEC Map Documentation tool
 
 ## Instructions
 
-1. Get the current source from the MEC and save it as a ***.java*** file
-2. Open the ***.java*** file in Notepad++ and run the following  steps to remove unnecessary text. Press **Ctrl + H** to open the Find and Replace window. Select **Regular expression** Radio box and **. matches newline** checkbox
+- Get the current source from the MEC and save it as a ***.java*** file
+- Open the ***.java*** file in Notepad++ and run the following  steps to remove unnecessary text. Press **Ctrl + H** to open the Find and Replace window. Select **Regular expression** Radio box and **. matches newline** checkbox
 ```
 Find:
 
@@ -60,8 +61,8 @@ Find:
 Replace:
 ```
 
-3. Save the file after the changes
-4. Open the MEC Map Documentation tool and provide the following information
+- Save the file after the changes
+- Open the MEC Map Documentation tool and provide the following information
 	
 	- Select the java file
 	- Select the folder where the documentation needs to be saved
@@ -70,7 +71,7 @@ Replace:
 	- Specify the Author of the Documentation
 	- Select the folder where the documentation resources are saved
 
-5. Click the **Generate Documentation** button and wait for the process to finish
+- Click the **Generate Documentation** button and wait for the process to finish
 
 
 
