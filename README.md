@@ -7,25 +7,23 @@ Guide to use the MEC Map Documentation tool
 - MEC Map Documentation Tool
 - Notepad++
 - MEC Map Current Source File
-- Resource Files containing the logo, headers, footers, and the cover page, etc.
+- Resource Files containing the logo, headers, footers, and the cover page.
 
 ## Instructions
 
 1. Get the current source from the MEC and save it as a ***.java*** file
 2. Open the ***.java*** file in Notepad++ and run the following  steps to remove unnecessary text. Press **Ctrl + H** to open the Find and Replace window. Select **Regular expression** Radio box and **. matches newline** checkbox
-
 ```
 Find:
 
-((?:(?:public|private|protected|static|final|abstract|synchronized|volatile)\s+)*)\s*(void|String)\s*(clearIn|clearOut|printOutput|printInput|getErrorMsg)\(.*?\)\s*({(?:{[^{}]*}|.)*?})
+((?:(?:public&#124;private&#124;protected&#124;static&#124;final&#124;abstract&#124;synchronized&#124;volatile)\s+)*)\s*(void&#124;String)\s*(clearIn&#124;clearOut&#124;printOutput&#124;printInput&#124;getErrorMsg)\(.*?\)\s*({(?:{[^{}]*}&#124;.)*?})
 
 Replace:
 ```
-
 ```
 Find:
 
-((?:(?:public|private|protected|static|final|abstract|synchronized|volatile)\s+)*)\s*(\w+)\s*\(String ID, String fPath\)\s*({(?:{[^{}]*}|.)*?})
+((?:(?:public&#124;private&#124;protected&#124;static&#124;final&#124;abstract&#124;synchronized&#124;volatile)\s+)*)\s*(\w+)\s*\(String ID, String fPath\)\s*({(?:{[^{}]*}&#124;.)*?})
 
 Replace:
 ```
@@ -49,7 +47,7 @@ Replace: $1
 ```
 Find:
 
-(\/\/)(.+?)(?=[\n\r]|\*\))
+(\/\/)(.+?)(?=[\n\r]&#124;\*\))
 
 Replace:
 ```
