@@ -16,7 +16,7 @@ Guide to use the MEC Map Documentation tool
 ## Instructions
 
 - Get the current source from the MEC and save it as a ***.java*** file
-- Open the ***.java*** file in Notepad++ and run the following  steps to remove unnecessary text. Press **Ctrl + H** to open the Find and Replace window. Select **Regular expression** Radio box and **. matches newline** checkbox
+- Open the ***.java*** file in Notepad++ and run the following  steps to remove unnecessary text. Press **Ctrl + H** to open the Find and Replace window. Select **Regular expression** Radio box, **. matches newline** checkbox and also the **Wrap around** checkbox.
 
 ```
 Find:
