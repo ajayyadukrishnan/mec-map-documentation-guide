@@ -57,6 +57,14 @@ Replace: void run\(\){$1}
 ```
 Find:
 
+boolean\s*?run\(\)\s*?{\s*?try\s*?{(.*?)}\s*?catch\s*?\((Throwable\s*?t)\)\s*?{(.*?)}
+
+Replace: void run\(\){$1
+```
+
+```
+Find:
+
 (\/\/)(.+?)(?=[\n\r]|\*\))
 
 Replace:
