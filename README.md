@@ -41,7 +41,7 @@ Replace:
 ```
 Find:
 
-void\s*?run\(\)\s*?{\s*?try\s*?{(.*?)}\s*?catch\s*?\((Throwable\s*?t)\)\s*?{(.*?)}\s*?}
+(class \w*?\s*?{)(.*?String ID;\n*?.*?String fPath;)
 
 Replace: $1
 ```
@@ -49,9 +49,9 @@ Replace: $1
 ```
 Find:
 
-(class \w*?\s*?{)(.*?String ID;\n*?.*?String fPath;)
+void\s*?run\(\)\s*?{\s*?try\s*?{(.*?)}\s*?catch\s*?\((Throwable\s*?t)\)\s*?{(.*?)}\s*?}
 
-Replace: $1
+Replace: void run\(\){$1
 ```
 
 ```
