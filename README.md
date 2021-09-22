@@ -51,7 +51,7 @@ Find:
 
 void\s*?run\(\)\s*?{\s*?try\s*?{(.*?)}\s*?catch\s*?\((Throwable\s*?t)\)\s*?{(.*?)}\s*?}
 
-Replace: void run\(\){$1
+Replace: void run\(\){$1}
 ```
 
 ```
