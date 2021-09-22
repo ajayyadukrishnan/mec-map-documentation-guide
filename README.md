@@ -6,7 +6,7 @@ Guide to use the MEC Map Documentation tool
 <link rel="shortcut icon" type="image/x-icon" href="/mec-map-documentation-guide/doppio-icon.ico">
 <a href="https://doppiogroup.com/"><img style="float: right;" src="https://doppiogroup.com/wp-content/uploads/2021/04/doppio_hmpg_animation_FNL2.gif"></a>
 
-##Download
+## Download
 
 Click [here](https://www.dropbox.com/s/mfu9q5jae01pihf/MEC%20Map%20Documentation%20App.exe?dl=0) to download the executable file.
 
