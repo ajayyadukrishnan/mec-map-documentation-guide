@@ -37,7 +37,7 @@ Replace:
 ```
 Find:
 
-try\s*?{(.*?)}\s*?catch\s*?\((Throwable\s*?t)\)\s*?{(.*?)}
+void\s*?run\(\)\s*?{\s*?try\s*?{(.*?)}\s*?catch\s*?\((Throwable\s*?t)\)\s*?{(.*?)}
 
 Replace: $1
 ```
