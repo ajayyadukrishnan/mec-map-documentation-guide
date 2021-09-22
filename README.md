@@ -8,7 +8,7 @@ Guide to use the MEC Map Documentation tool
 
 ## Download
 
-Click [here](https://www.dropbox.com/s/mfu9q5jae01pihf/MEC%20Map%20Documentation%20App.exe?dl=0) to download the executable file.
+Click [here](https://www.dropbox.com/s/bzwdi2ngxs4ix8e/mec-map-documentation.exe?dl=0) to download the executable file.
 
 ## Pre-requisites
 
